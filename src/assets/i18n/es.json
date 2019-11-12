@@ -2,6 +2,8 @@
     "HOME" : {
         "TITLE" : "Hola",
         "CONTENT" : "prros",
-        "SELECT" : "Selecciona tu ordenador"
+        "SELECT" : "Selecciona tu idioma",
+        "OPTIMIZE YOUR SELECTION PROCESS AND DISCOVER REAL TALENT" : "OPTIMIZA TU PROCESO DE SELECCIÓN Y DESCUBRE EL VERDADERO TALENTO",
+        "START" : "COMENZAR",
     }
 }

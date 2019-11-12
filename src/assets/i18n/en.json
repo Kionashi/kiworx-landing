@@ -2,6 +2,8 @@
     "HOME" : {
         "TITLE" : "Hello there",
         "CONTENT" : "Fellow kids",
-        "SELECT" : "Select Language"
+        "SELECT" : "Select Language",
+        "OPTIMIZE YOUR SELECTION PROCESS AND DISCOVER REAL TALENT" : "OPTIMIZE YOUR SELECTION PROCESS AND DISCOVER REAL TALENT",
+        "START" : "START",
     }
 }
