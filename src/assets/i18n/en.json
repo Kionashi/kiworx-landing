@@ -1,9 +1,18 @@
 {
     "HOME" : {
-        "TITLE" : "Hello there",
-        "CONTENT" : "Fellow kids",
+        "PRODUCT" : "PRODUCT",
+        "PRICING" : "PRICING",
+        "LOG IN" : "LOG IN",
         "SELECT" : "Select Language",
-        "OPTIMIZE YOUR SELECTION PROCESS AND DISCOVER REAL TALENT" : "OPTIMIZE YOUR SELECTION PROCESS AND DISCOVER REAL TALENT",
+        "OPTIMIZE YOUR RECRUITMENT PROCESS AND DISCOVER THE RIGHT TALENT" : "OPTIMIZE YOUR RECRUITMENT PROCESS AND DISCOVER THE RIGHT TALENT",
         "START" : "START",
+        "BOOK A DEMO" : "BOOK A DEMO",
+        "HIRING HAS NEVER BEEN EASIER" : "HIRING HAS NEVER BEEN EASIER",
+        "CONTACT US" : "CONTACT US",
+        "What is Kiworx?" : "What is Kiworx?"
+    },
+
+    "DUMMY" : {
+        "we define together the employment web" : "we define together the employment web"
     }
 }

@@ -764,6 +764,8 @@ section.lazy-placeholder:after {
   margin: 0rem .65rem !important;
   -webkit-align-items: center;
   -webkit-justify-content: center;
+  /* Extra*/
+  font-size: 15px;
 }
 .cid-rGQM8w8t0f .nav-item:focus,
 .cid-rGQM8w8t0f .nav-link:focus {

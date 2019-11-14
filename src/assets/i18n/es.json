@@ -1,9 +1,19 @@
 {
     "HOME" : {
-        "TITLE" : "Hola",
-        "CONTENT" : "prros",
+        "PRODUCT" : "PRODUCTO",
+        "PRICING" : "PRECIOS",
+        "LOG IN" : "INGRESAR",
         "SELECT" : "Selecciona tu idioma",
-        "OPTIMIZE YOUR SELECTION PROCESS AND DISCOVER REAL TALENT" : "OPTIMIZA TU PROCESO DE SELECCIÓN Y DESCUBRE EL VERDADERO TALENTO",
+        "OPTIMIZE YOUR RECRUITMENT PROCESS AND DISCOVER THE RIGHT TALENT" : "OPTIMIZA TU PROCESO DE SELECCIÓN Y DESCUBRE EL VERDADERO TALENTO",
         "START" : "COMENZAR",
+        "BOOK A DEMO" : "BOOK A DEMO",
+        "HIRING HAS NEVER BEEN EASIER" : "HIRING HAS NEVER BEEN EASIER",
+        "CONTACT US" : "CONTÁCTANOS",
+        "What is Kiworx?" : "¿Qué es Kiworx?"
+    },
+
+    "DUMMY" : {
+        "we define together the employment web" : "definimos juntos la web de empleo"
     }
+    
 }

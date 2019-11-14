@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { Routes, RouterModule} from '@angular/router';
 import {TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {HttpClientModule, HttpClient} from '@angular/common/http';
@@ -10,6 +11,12 @@ import { NavbarComponent } from './navbar/navbar.component';
 export function HttpLoaderFactory(http: HttpClient){
   return new TranslateHttpLoader(http);
 }
+
+const appRoutes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'dummy', component: NavbarComponent }
+]
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +26,7 @@ export function HttpLoaderFactory(http: HttpClient){
   imports: [
     BrowserModule,
     HttpClientModule,
+    RouterModule.forRoot(appRoutes),
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
