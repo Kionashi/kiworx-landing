@@ -109,5 +109,18 @@
         "What can be measured can be improved" : "What can be measured can be improved",
         "Measure everything that happens in the recruitment process centrally and discover that it works well and what could be improved.": "Measure everything that happens in the <strong>recruitment process</strong> centrally and discover that it works well and what could be improved.",
         "APPLICANTS, AVERAGE TIME TO RECRUIT, VIEWS" : "APPLICANTS, AVERAGE TIME TO RECRUIT, VIEWS…"
+    },
+
+    "CONTACT-FORM" : {
+        "QUESTIONS?" : "QUESTIONS?",
+        "Are you interested in knowing more about our services and solutions?" : "Are you interested in knowing more about our services and solutions?",
+        "Complete your information and we will contact you." : "Complete your information and we will contact you.",
+        "Thanks for contacting us! Soon we will get in touch with you" : "Thanks for contacting us! Soon we will get in touch with you",
+        "SEND" : "SEND",
+        "Name" : "Name",
+        "Email" : "Email",
+        "Contact phone" : "Contact phone",
+        "Message" : "Message"
+
     }
 }

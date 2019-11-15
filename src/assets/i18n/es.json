@@ -109,6 +109,18 @@
         "Measure everything that happens in the recruitment process centrally and discover that it works well and what could be improved.": "Mide todo lo que ocurre en el <strong>proceso de selección</strong> de forma centralizada y descubre que funciona bien y que podría mejorarse.",
         "APPLICANTS, AVERAGE TIME TO RECRUIT, VIEWS" : "APLICANTES, TIEMPO MEDIO EN RECLUTAR, VISUALIZACIONES…"
         
+    },
+
+    "CONTACT-FORM" : {
+        "QUESTIONS?" : "CONSULTAS?",
+        "Are you interested in knowing more about our services and solutions?" : "¿Estás interesado en conocer más acerca de nuestros servicios y soluciones?",
+        "Complete your information and we will contact you." : "Completa tus datos y nos pondremos en contacto contigo",
+        "Thanks for contacting us! Soon we will get in touch with you" : "Gracias por contactarnos! A la brevedad nos pondremos en contacto contigo",
+        "SEND" : "ENVIAR",
+        "Name" : "Nombre",
+        "Email" : "Correo",
+        "Contact phone" : "Teléfono de contacto",
+        "Message" : "Mensaje"
     }
     
 }

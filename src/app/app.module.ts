@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AttractComponent } from './attract/attract.component';
 import { QualifyComponent } from './qualify/qualify.component';
 import { ManageComponent } from './manage/manage.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 export function HttpLoaderFactory(http: HttpClient){
   return new TranslateHttpLoader(http);
@@ -31,7 +32,8 @@ const appRoutes: Routes = [
     FooterComponent,
     AttractComponent,
     QualifyComponent,
-    ManageComponent
+    ManageComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,
