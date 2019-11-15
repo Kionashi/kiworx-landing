@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+/* The container must be positioned relative: */
+.countries-select select {
+    position: relative;
+    font-family: Arial;
+    background-color: #FFF;
+    border-radius: 10px;
+    color: #6448C6;
+    border:0 !important;
+}
