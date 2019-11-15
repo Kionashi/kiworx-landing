@@ -103,6 +103,18 @@
         "TOP employees know TOP talent. We make it easy for them to recommend them as just Submitting your CV or LinkedIn profile. Reward them for it and make the referred talent not stop growing." : "Los empleados TOP conocen a talento TOP. Hacemos que sea fácil que los recomienden como tan solo enviar su CV o LinkedIn profile. Recompénsalos por ello y haz que el talento referido no pare de crecer.",
         "Candidate base" : "Base de Candidatos",
         "" : ""
+    },
+
+    "CONTACT-FORM" : {
+        "QUESTIONS?" : "CONSULTAS?",
+        "Are you interested in knowing more about our services and solutions?" : "¿Estás interesado en conocer más acerca de nuestros servicios y soluciones?",
+        "Complete your information and we will contact you." : "Completa tus datos y nos pondremos en contacto contigo",
+        "Thanks for contacting us! Soon we will get in touch with you" : "Gracias por contactarnos! A la brevedad nos pondremos en contacto contigo",
+        "SEND" : "ENVIAR",
+        "Name" : "Nombre",
+        "Email" : "Correo",
+        "Contact phone" : "Teléfono de contacto",
+        "Message" : "Mensaje"
     }
     
 }

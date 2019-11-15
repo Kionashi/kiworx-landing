@@ -104,5 +104,18 @@
         "TOP employees know TOP talent. We make it easy for them to recommend them as just Submitting your CV or LinkedIn profile. Reward them for it and make the referred talent not stop growing." : "TOP employees know TOP talent. We make it easy for them to recommend them as just Submitting your CV or LinkedIn profile. Reward them for it and make the referred talent not stop growing.",
         "Candidate base" : "Candidate base",
         "" : ""
+    },
+
+    "CONTACT-FORM" : {
+        "QUESTIONS?" : "QUESTIONS?",
+        "Are you interested in knowing more about our services and solutions?" : "Are you interested in knowing more about our services and solutions?",
+        "Complete your information and we will contact you." : "Complete your information and we will contact you.",
+        "Thanks for contacting us! Soon we will get in touch with you" : "Thanks for contacting us! Soon we will get in touch with you",
+        "SEND" : "SEND",
+        "Name" : "Name",
+        "Email" : "Email",
+        "Contact phone" : "Contact phone",
+        "Message" : "Message"
+
     }
 }
