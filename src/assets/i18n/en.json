@@ -40,8 +40,10 @@
     },
 
     "FOOTER" : {
-        "About Us" : "About Us",
-        "Team" : "Team"
+        "About us" : "About us",
+        "About Kiworx" : "Sobre Kiworx",
+        "Team" : "Team",
+        "Contact" : "Contact"
     },
 
     "ATTRACT" : {

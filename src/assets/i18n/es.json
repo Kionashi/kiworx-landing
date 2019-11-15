@@ -39,8 +39,10 @@
         "Real time KPIs" : "La Empresa reciben KPI´s en tiempo real"
     },
     "FOOTER" : {
-        "About Us" : "Sobre nosotros",
-        "Team" : "Equipo"
+        "About us" : "Nosotros",
+        "About Kiworx" : "Sobre Kiworx",
+        "Team" : "Equipo",
+        "Contact" : "Contacto"
     },
 
     "ATTRACT" : {
