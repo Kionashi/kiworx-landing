@@ -120,7 +120,7 @@
         "Name" : "Name",
         "Email" : "Email",
         "Contact phone" : "Contact phone",
-        "Message" : "Message"
+        "Message" : "Message",
 
     }
 }

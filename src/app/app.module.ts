@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
+import { DeviceDetectorModule } from 'ngx-device-detector';
 import { Routes, RouterModule} from '@angular/router';
 import {TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader} from '@ngx-translate/http-loader';
@@ -38,7 +40,9 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     HttpClientModule,
+    DeviceDetectorModule.forRoot(),
     RouterModule.forRoot(appRoutes),
+    FormsModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
