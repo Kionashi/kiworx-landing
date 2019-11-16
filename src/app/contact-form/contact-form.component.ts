@@ -36,15 +36,20 @@ export class ContactFormComponent implements OnInit {
   }
 
   onSubmit() {
-    console.log(this.getUserAgent());
+    // Set Client IP
+    this.getIpCliente();
+
+    // Validate email is set
     if(this.email != ''){
-      this.http.post('http://api.kiworx.net/api/v1/contact',{
+
+      // Store contact
+      this.http.post('https://kiworx.net/api/public/api/v1/contact',{
         'email': this.email,
         'name' : this.name,
         'phone' : this.phone,
         'message' : this.message,
-        ipAdress : this.getIpCliente(),
-        userAgent : this.getUserAgent()
+        'ip_address' : this.ipAddress,
+        'user_agent' : this.getUserAgent()
       }).subscribe(response =>{
       })
       this.isVisible = true;
