@@ -38,7 +38,7 @@ export class ContactFormComponent implements OnInit {
   onSubmit() {
     console.log(this.getUserAgent());
     if(this.email != ''){
-      this.http.post(`http://api.kiworx.net/api/v1/contact`,{
+      this.http.post('http://api.kiworx.net/api/v1/contact',{
         'email': this.email,
         'name' : this.name,
         'phone' : this.phone,

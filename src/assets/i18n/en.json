@@ -10,7 +10,7 @@
         "HIRING HAS NEVER BEEN EASIER" : "HIRING HAS NEVER BEEN EASIER",
         "CONTACT US" : "CONTACT US",
         "What is Kiworx?" : "What is Kiworx?",
-        "What is Kiworx? answer" : "Is a <strong> recruiting software </strong> that optimizes the selection process by using <strong>AI</strong> screening and pre-selecting the best suited talent for the position. It also helps to manage the whole <strong>selection process</strong>, easily and dynamically from the post to the hiring.",
+        "What is Kiworx? answer" : "Is a <strong> recruiting software </strong> that optimizes the recruitment process by using <strong>AI</strong> screening and pre-selecting the best suited talent for the position. It also helps to manage the whole <strong>selection process</strong>, easily and dynamically from the post to the hiring.",
         "ATTRACT" : "ATTRACT",
         "ATTRACT_BODY_1" : "We help you to get where the talents are and be attractive to them.",
         "ATTRACT_BODY_2" : "You will not go unnoticed!",
@@ -40,16 +40,14 @@
     },
 
     "FOOTER" : {
-        "About us" : "About us",
-        "About Kiworx" : "Sobre Kiworx",
-        "Team" : "Team",
-        "Contact" : "Contact"
+        "Phone" : "Phone",
+        "CONTACT" : "CONTACT",
+        "email" : "email"
     },
 
     "ATTRACT" : {
         "We work with you" : "We work with you",
-        "We work together" : "We work together",
-        "to know you thoroughly, understanding the" : "to know you thoroughly, understanding the", 
+        "We work together to know you thoroughly, understanding the" : "We work together to know you thoroughly, understanding the",
         "company culture and its values" : "company culture and its values",
         "We also understand what" : "We also understand what",
         "needs and positions" : "needs and positions",
@@ -64,9 +62,7 @@
         "employment website" : "employment website",
         "with the best practices so that you can attract your candidates and improve their perception of you." : "with the best practices so that you can attract your candidates and improve their perception of you.",
         "Multichannel Selection Strategy" : "Multichannel Selection Strategy",
-        "talent is not in one place, so we will help you reach many of them quickly. Thanks to" : "Talent is not in one place, so we will help you reach many of them quickly. Thanks to",
-        "reach them with just one click" : "reach them with just one click"
-
+        "talent is not in one place, so we will help you reach many of them quickly. Thanks to reach them with just one click" : "<br><strong>Talent</strong> is not in one place, so we will help you reach many of them quickly. Thanks to <strong>multi-posting.</strong><br><br>"
     },
 
     "QUALIFY" : {
@@ -122,7 +118,6 @@
         "Name" : "Name",
         "Email" : "Email",
         "Contact phone" : "Contact phone",
-        "Message" : "Message",
-
+        "Message" : "Message"
     }
 }

@@ -2,8 +2,14 @@
 .countries-select select {
     position: relative;
     font-family: Arial;
+    font-size: 1.2rem !important;
     background-color: #FFF;
     border-radius: 10px;
     color: #6448C6;
     border:0 !important;
 }
+
+.footer-gray-link {
+    color: #465052;
+}
+

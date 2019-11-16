@@ -39,16 +39,14 @@
         "Real time KPIs" : "La Empresa reciben KPI´s en tiempo real"
     },
     "FOOTER" : {
-        "About us" : "Nosotros",
-        "About Kiworx" : "Sobre Kiworx",
-        "Team" : "Equipo",
-        "Contact" : "Contacto"
+        "Phone" : "Tel",
+        "CONTACT" : "CONTACTO",
+        "email" : "email"
     },
 
     "ATTRACT" : {
         "We work with you" : "Trabajamos mano a mano contigo",
-        "We work together" : "Trabajaremos juntos",
-        "to know you thoroughly, understanding the" : "con el objetivo de conoceros a fondo, entender la",
+        "We work together to know you thoroughly, understanding the" : "Trabajamos juntos con el objetivo de conoceros a fondo, entender la",
         "company culture and its values" : "cultura de empresa y sus valores",
         "We also understand what" : "También entenderemos qué ",
         "needs and positions" : "necesidades y posiciones",
@@ -63,8 +61,7 @@
         "employment website" : " web de empleo",
         "with the best practices so that you can attract your candidates and improve their perception of you." : "con las mejores prácticas para que puedas atraer a tus candidatos y mejorar la percepción que tienen de tí.",
         "Multichannel Selection Strategy" : "Estrategia Multicanal de selección",
-        "talent is not in one place, so we will help you reach many of them quickly. Thanks to" : "Los candidatos están en muchos sitios por ello os ayudamos a que llegues a cuantos más mejor. Gracias al",
-        "reach them with just one click" : "llega a ellos con un solo click."
+        "talent is not in one place, so we will help you reach many of them quickly. Thanks to reach them with just one click" : "<br>El <strong>talento</strong> no está en un sólo lugar, por eso te ayudamos a que llegues a ellos de manera rápida y sencilla, gracias al <strong>multi-posting.</strong><br><br>"
     },
 
     "QUALIFY" : {
