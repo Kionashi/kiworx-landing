@@ -113,6 +113,10 @@
         "Email" : "Correo",
         "Contact phone" : "Teléfono de contacto",
         "Message" : "Mensaje"
-    }
-    
+    },
+    "The field name is required." : "El campo nombre es requerido.",
+    "The email must be a valid email address." : "Debe introducir un email válido.",
+    "The field phone is required." : "El campo teléfono es requerido.",
+    "The field message is required." : "El campo mensaje es requerido.",
+    "You must fill all fields" : "Debe rellenar todos los campos"
 }

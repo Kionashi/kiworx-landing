@@ -53,6 +53,6 @@
         </div>
     </nav>
 </section>
-<router-outlet></router-outlet>
+<router-outlet (activate)="onActivate($event)"></router-outlet>
 <app-contact-form></app-contact-form>
 <app-footer></app-footer>

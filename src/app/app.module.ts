@@ -3,12 +3,13 @@ import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { DeviceDetectorModule } from 'ngx-device-detector';
 import { Routes, RouterModule} from '@angular/router';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import {TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {HttpClientModule, HttpClient} from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { AttractComponent } from './attract/attract.component';
 import { QualifyComponent } from './qualify/qualify.component';
@@ -23,18 +24,19 @@ const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'attract', component: AttractComponent },
   { path: 'qualify', component: QualifyComponent },
-  { path: 'manage', component: ManageComponent }
+  { path: 'manage', component: ManageComponent },
+  { path: 'contact', component: ContactComponent }
 ]
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavbarComponent,
     FooterComponent,
     AttractComponent,
     QualifyComponent,
     ManageComponent,
+    ContactComponent,
     ContactFormComponent
   ],
   imports: [
@@ -51,7 +53,7 @@ const appRoutes: Routes = [
       }
     })
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

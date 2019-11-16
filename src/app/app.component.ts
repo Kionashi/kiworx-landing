@@ -13,4 +13,19 @@ export class AppComponent {
     const browserLang = translate.getBrowserLang();
     translate.use(browserLang.match(/en|es/) ? browserLang : 'en');
   }
+  onActivate(event) {
+    // Immediate scroll to top
+    window.scrollTo(0,0);
+
+    // Slow scroll to top
+    
+    // let scrollToTop = window.setInterval(() => {
+    //   let pos = window.pageYOffset;
+    //   if (pos > 0) {
+    //       window.scrollTo(0, pos - 50); // how far to scroll on each step
+    //   } else {
+    //       window.clearInterval(scrollToTop);
+    //   }
+    // }, 16);
+  }
 }

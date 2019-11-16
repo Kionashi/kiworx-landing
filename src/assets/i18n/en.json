@@ -113,5 +113,10 @@
         "Email" : "Email",
         "Contact phone" : "Contact phone",
         "Message" : "Message"
-    }
+    },
+    "The field name is required." : "The field name is required.",
+    "The email must be a valid email address." : "The email must be a valid email address.",
+    "The field phone is required." : "The field phone is required.",
+    "The field message is required." : "The field message is required.",
+    "You must fill all fields" : "You must fill all fields"
 }
