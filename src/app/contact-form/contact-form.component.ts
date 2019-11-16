@@ -18,6 +18,7 @@ export class ContactFormComponent implements OnInit {
   response : any = '';
   displaySuccessMsg : boolean = false;
   displayErrorMsg : boolean = false;
+  isSending : boolean = false;
   errors : any = '';
 
   constructor(
@@ -43,6 +44,9 @@ export class ContactFormComponent implements OnInit {
     return Object.keys(obj).map((key)=>{ return obj[key]});
   }
   onSubmit() {
+    // Disable send button 
+    this.isSending = true;
+
     // Reset contact response
     this.displaySuccessMsg = false;
     this.displayErrorMsg = false;
@@ -72,19 +76,37 @@ export class ContactFormComponent implements OnInit {
         'user_agent' : this.getUserAgent()
       }).subscribe(
         response  => {
-          // Success
+          // Display success message
           this.displaySuccessMsg = true;
+
+          // Enable send button 
+          this.isSending = false;
+
+          // Turn off success message
+          setTimeout(()=>{this.displaySuccessMsg = false; }, 3000);
         },
         error     => {
           // Handle server error
           this.displayErrorMsg = true;
           this.errors = error;
-          console.log(error);
+
+          // Enable send button 
+          this.isSending = false;
+
+          // Turn off error message
+          setTimeout(()=>{ this.displayErrorMsg = false; }, 3000);
         }
       );
     } else {
+      // Display errors
       this.displayErrorMsg = true;
       this.errors = errorList;
+
+      // Enable send button 
+      this.isSending = false;
+
+      // Turn off error message
+      setTimeout(()=>{ this.displayErrorMsg = false; }, 3000);
     }
   }
 
