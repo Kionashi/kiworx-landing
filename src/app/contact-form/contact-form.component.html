@@ -33,7 +33,7 @@
                                 <div data-for="message" class="col-md-12 form-group ">
                                     <textarea name="message" [(ngModel)]="message" placeholder="{{'CONTACT-FORM.Message' | translate }}" data-form-field="Message" class="form-control px-3 display-7" id="message-header15-2o"></textarea>
                                 </div>
-                                <div class="col-md-12 input-group-btn"><button type="submit" [disabled]="isSended" class="btn btn-form btn-primary display-4">{{'CONTACT-FORM.SEND' | translate }}</button></div>
+                                <div class="col-md-12 input-group-btn"><button type="submit" [disabled]="isSending" class="btn btn-form btn-primary display-4">{{'CONTACT-FORM.SEND' | translate }}</button></div>
                             </div>
                             <div class="row">
                                 <div *ngIf="displaySuccessMsg" data-form-alert="" class="alert alert-success col-12">{{'CONTACT-FORM.Thanks for contacting us! Soon we will get in touch with you' | translate }}</div>
